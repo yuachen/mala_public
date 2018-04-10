@@ -5,5 +5,6 @@ by Raaz Dwivedi, Yuansi Chen, Martin J. Wainwright, Bin Yu
 
 The algorithm implementations are contained in 'mcmc.py'.
 Simulations are contained in jupyter notebooks.
+Please update 'save_path' to your local path before any simulations. 
 
 Code is released under MIT License.
