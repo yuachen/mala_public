@@ -1,4 +1,4 @@
-# Simulation Code for MALA
+# Simulation Code for Log-concave sampling
 Supporting simulation code for the paper "Log-concave sampling: Metropolis-Hastings algorithms are fast!"
 https://arxiv.org/abs/1801.02309
 by Raaz Dwivedi, Yuansi Chen, Martin J. Wainwright, Bin Yu
