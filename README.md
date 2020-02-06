@@ -7,6 +7,8 @@ by Raaz Dwivedi, Yuansi Chen, Martin J. Wainwright, Bin Yu
 - The algorithm implementations are contained in 'mcmc.py'.
 - Simulations are contained in jupyter notebooks.
 - Please update 'save_path' to your local path before any simulations. 
+- The Code in folder 'mcmc_simulation1' was run on a high-performance cluster and might take long time to complete. 
+It is recommended that one first get familiar with the code for simulation2 and simulation3 before trying simulation1.
 
 ## License and Citation
 Code is released under MIT License.

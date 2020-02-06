@@ -1,7 +1,4 @@
-# This is code to support simulations in the paper 
-#"Log-concave sampling: Metropolis-Hastings algorithms are fast!"
-# by Raaz Dwivedi, Yuansi Chen, Martin J. Wainwright, Bin Yu
-# mcmc package that contains random walk with Metripolis-Hastings,
+# mcmc package that contains random walk,
 # Unadjusted Langevin Dynamics and Metropolis Adjusted Langevin Dynamics
 import numpy as np
 
@@ -132,7 +129,7 @@ def rwmh(x_init, f, error_metric, kappa=1.0, L=1.0, nb_iters=200, nb_exps=10):
     _, d = x_init.shape
     x_curr = x_init.copy()
     # set up the step sizes
-    h_rwmh = 0.5 / d**2 / kappa / L
+    h_rwmh = 0.5 / d / kappa / L
     nh_rwmh = np.sqrt(2 * h_rwmh)
 
     error_1 = error_metric(x_curr)
